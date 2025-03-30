@@ -7,17 +7,22 @@ import streamlit as st
 from markdown import markdown
 from weasyprint import HTML, CSS
 import uuid
+import pandas as pd
+from config import REPORT_DIR
+import html
+import urllib.parse
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 def generate_campaign_csv(search_results: list[dict], prefix: str):
     data = []
-    keys = list(search_results[0].keys()) if search_results else []
-    data.append(keys)
+    dict_with_most_keys = max(search_results, key=len)
+    keys = list(dict_with_most_keys.keys()) if search_results else []
+    data.append([sanitize_text(key_item) for key_item in keys])
     for result in search_results:
         record = []
         for value in result.values():
-            record.append(value)
+            record.append(sanitize_text(value))
         data.append(record)
     id = uuid.uuid4().hex
     directory = "csv"
@@ -89,6 +94,130 @@ def generate_file_name(id, prefix, extension):
 
 def find_files_in_dir(directory, search_string):
     return [f for f in os.listdir(directory) if search_string in f]
+
+def create_pdf_from_md(md_path):
+    with open(os.path.join(md_path), "r") as f:
+        report_content = f.read()
+
+    pdf_path = os.path.join(md_path.replace(".md", ".pdf"))
+    markdown_to_pdf(report_content, pdf_path)
+    return md_path.replace(".md", ".pdf")
+
+def sanitize_text(text: str, 
+    strip_whitespace: bool = True,
+    remove_quotes: bool = True,
+    lowercase: bool = False,
+    remove_special_chars: bool = False,
+    escape_html: bool = False,
+    remove_html: bool = False,
+    custom_regex: str | None = None) -> str:
+   
+    if not isinstance(text, str):
+        return "None"  # Return empty string for non-string inputs
+
+    result = text
+
+    # Step 1: Strip whitespace and collapse multiple spaces
+    if strip_whitespace:
+        result = re.sub(r'\s+', ' ', result.strip())
+
+    # Step 2: Remove quotes
+    if remove_quotes:
+        result = result.strip('"').strip("'")
+
+    # Step 3: Convert to lowercase
+    if lowercase:
+        result = result.lower()
+
+    # Step 4: Remove special characters (keep letters, numbers, and spaces)
+    if remove_special_chars:
+        result = re.sub(r'[^a-zA-Z0-9 ]', '', result)
+
+    # Step 5: Escape HTML characters
+    if escape_html:
+        result = html.escape(result)
+
+    # Step 6: Remove HTML tags
+    if remove_html:
+        result = re.sub(r'<[^>]+>', '', result)
+
+    # Step 7: Apply custom regex if provided
+    if custom_regex:
+        try:
+            result = re.sub(custom_regex, '', result)
+        except re.error:
+            pass  # Ignore invalid regex patterns
+
+    if len(result) == 0:
+        return "None"
+    
+    return urllib.parse.quote(result, safe=':/?&= !?.@*()')
+
+def csv_to_pdf(csv_file, pdf_file):
+    df = pd.read_csv(csv_file)
+
+    # Store all row tables
+    html_tables = []
+
+    # Loop through each row to generate individual tables
+    for _, row in df.iterrows():
+        df_transposed = row.to_frame().reset_index()  # Convert row to DataFrame
+        df_transposed.columns = ["Label", "Value"]  # Rename columns
+        
+        # Apply inline styling inside the Value column
+        df_transposed["Value"] = df_transposed["Value"].apply(
+            lambda x: f'<div style="min-width: 400px; max-width: 400px; word-wrap: break-word;">{x}</div>'
+        )
+
+        # Define CSS for clean layout
+        css = """
+        <style>
+            h1 { font-weight: bold; font-size: 32px; margin-bottom: 24px; }
+            table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+            th, td { border: 1px solid black; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            td:nth-child(1) { width: 30%; font-weight: bold; } /* Label column */
+        </style>
+        """
+
+        # Append each row table as HTML
+        html_tables.append(f"{css}{df_transposed.to_html(index=False, escape=False)}")
+
+    # Combine all row tables into a single HTML document
+    title = ""
+    if "marketing" in csv_file:
+        title = "Marketing promotion campaign snapshots"
+    elif "pricing" in csv_file:
+        title = "Competitors' pricing analysis snapshots"
+    html_content = f"<br><h1>{title}<h1>".join(html_tables)
+
+    # Convert HTML to PDF
+    HTML(string=html_content).write_pdf(pdf_file)
+
+    print(f"PDF saved as: {pdf_file}")
+    
+def empty_directory(directory_path: str) -> None:
+    def remove_dir_contents(path: str) -> None:
+        """Helper function to recursively delete director contents."""
+        for item in os.listdir(path):
+            item_path = os.path.join(path, item)
+            if os.path.isfile(item_path):
+                os.remove(item_path)  # Delete file
+            elif os.path.isdir(item_path):
+                remove_dir_contents(item_path)  # Recurse into subdirectory
+                os.rmdir(item_path)  # Remove empty subdirectory
+
+    try:
+        # Check if directory exists
+        if not os.path.exists(directory_path):
+            print(f"Directory '{directory_path}' does not exist.")
+            return
+        
+        # Remove all contents
+        remove_dir_contents(directory_path)
+        print(f"Directory '{directory_path}' has been emptied.")
+    except Exception as e:
+        print(f"Error emptying directory: {e}")
     
 class StreamToExpander:
     def __init__(self, expander, st):

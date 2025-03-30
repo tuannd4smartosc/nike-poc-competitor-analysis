@@ -1,15 +1,18 @@
 import pandas as pd
-from scraper import SeleniumScraper
+from scraper import SerperScraper
+from utils import markdown_to_pdf, csv_to_pdf
+import uuid
+import os
 
-def capture_campaign_snapshot(csv_files):
-    print("csv_files", csv_files)
-    for csv in csv_files[:4]:
+def capture_campaign_snapshot(csv_files) -> list[str]:
+    paths = []
+    for csv in csv_files:
         csv_path = f"csv/{csv}"
-        df_campaign = pd.read_csv(csv_path, delimiter=',')
-        links = df_campaign['link'].dropna().tolist()
-        print("links", links, type(links))
-        for link in links[:2]:
-            scraper = SeleniumScraper().crawl_and_snapshot(link)
+        os.makedirs("snapshots", exist_ok=True)
+        target_link = f"snapshots/snap-{uuid.uuid4().hex}.pdf"
+        csv_to_pdf(csv_path,  target_link)
+        paths.append(target_link)
+    return paths
         
-files = ['marketing_13dfee4f963e4742a152064cc41c06f2_competitor_analysis_20250330_200913.csv', 'marketing_ae45f64ae6ec41019f1cb84b5ab21210_competitor_analysis_20250330_200913.csv']
-capture_campaign_snapshot(files)
+        
+        
