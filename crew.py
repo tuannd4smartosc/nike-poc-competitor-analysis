@@ -79,7 +79,7 @@ def run_analysis(company_name, competitors_name, date):
     
     file_paths = [*marketing_snapshot_paths, *price_snapshot_paths, marketing_pdf_path, pricing_pdf_path]
     
-    send_email_with_attachment(subject, body, from_email, to_email, file_paths)
+    send_email_with_attachment(subject, body, from_email, to_email, result, file_paths)
     
     empty_directory("snapshots")
     empty_directory("csv")

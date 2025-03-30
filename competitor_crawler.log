@@ -652,3 +652,110 @@ LiteLLM completion() model= gpt-3.5-turbo; provider = openai
 2025-03-30 23:34:07,061 - INFO - Wrapper: Completed Call, calling success_handler
 2025-03-30 23:34:08,787 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
 2025-03-30 23:34:08,852 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:41:54,948 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:41:56,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:41:56,114 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:41:57,034 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:41:57,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:41:57,868 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:41:59,136 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:42:04,568 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:42:04,599 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:42:04,623 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:42:05,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:42:06,024 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:42:07,336 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:42:08,791 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:42:08,826 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:42:10,098 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:42:16,112 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:42:16,150 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:42:17,569 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:42:17,645 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:43:54,741 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-30 23:43:55,583 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:43:58,672 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:44:01,742 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:44:04,930 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:44:08,436 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:44:13,787 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:01,231 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:19,052 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:24,117 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:28,991 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:30,962 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:32,216 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:32,266 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:34,077 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:34,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:34,976 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:36,223 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:41,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:41,182 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:41,209 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:42,245 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:42,282 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:43,406 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:44,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:44,692 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:45,278 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:45:51,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:45:51,370 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:45:52,625 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:45:52,700 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:46:02,961 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:46:27,491 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:46:31,307 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:46:33,023 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:46:45,218 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:47:07,239 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:47:22,303 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:09,704 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:15,006 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:18,196 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:19,011 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:20,787 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:20,819 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:22,243 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:23,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:23,091 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:24,287 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:25,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:25,613 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:25,641 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:26,885 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:26,918 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:28,035 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:29,436 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:29,469 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:30,336 - INFO - 
+LiteLLM completion() model= gpt-3.5-turbo; provider = openai
+2025-03-30 23:49:36,159 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-30 23:49:36,195 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-30 23:49:37,496 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:37,522 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:49:47,822 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:01,153 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:03,922 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:07,356 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:13,737 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:18,537 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:25,340 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-30 23:50:29,701 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.

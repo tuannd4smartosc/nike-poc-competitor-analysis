@@ -172,7 +172,7 @@ def csv_to_pdf(csv_file, pdf_file):
         # Define CSS for clean layout
         css = """
         <style>
-            h1 { font-weight: bold; font-size: 32px; margin-bottom: 24px; }
+            h1.title { font-weight: bold; font-size: 32px; margin-bottom: 24px; }
             table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
             th, td { border: 1px solid black; padding: 8px; text-align: left; }
             th { background-color: #f2f2f2; }
@@ -189,11 +189,11 @@ def csv_to_pdf(csv_file, pdf_file):
         title = "Marketing promotion campaign snapshots"
     elif "pricing" in csv_file:
         title = "Competitors' pricing analysis snapshots"
-    html_content = f"<br><h1>{title}<h1>".join(html_tables)
+    html_content = f"<br>".join(html_tables)
+    html_content_with_title = f"<h1 class='title'>{title}</h1>{html_content}"
 
     # Convert HTML to PDF
-    HTML(string=html_content).write_pdf(pdf_file)
-
+    HTML(string=html_content_with_title).write_pdf(pdf_file)
     print(f"PDF saved as: {pdf_file}")
     
 def empty_directory(directory_path: str) -> None:
