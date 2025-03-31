@@ -1,1 +1,0 @@
-I will now compile a detailed market analysis report with a thorough analysis of the ad campaigns from Under Armour and New Balance, along with their potential impacts on Nike.

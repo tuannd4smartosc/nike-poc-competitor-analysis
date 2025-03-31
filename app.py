@@ -12,8 +12,11 @@ st.sidebar.title("Reports")
 if not os.path.exists(REPORT_DIR):
     os.makedirs(REPORT_DIR)
 
-report_files = [f for f in os.listdir(REPORT_DIR) if f.endswith(".md")]
-selected_report = st.sidebar.selectbox("Select a Report", report_files)
+marketing_report_files = [os.path.join(REPORT_DIR, f) for f in os.listdir(REPORT_DIR) if f.endswith(".md") and f.startswith("marketing")]
+selected_marketing_report = st.sidebar.selectbox("Select a Marketing Report", marketing_report_files)
+
+pricing_report_files = [os.path.join(REPORT_DIR, f) for f in os.listdir(REPORT_DIR) if f.endswith(".md") and f.startswith("pricing")]
+selected_pricing_report = st.sidebar.selectbox("Select a Pricing Report", pricing_report_files)
 
 st.title("Competitor Analysis Dashboard")
 st.markdown("Analyze competitor pricing and promotions with a single click!")
@@ -25,7 +28,6 @@ end_date = st.date_input("Pick an end date:")
 date_range = f"From: {start_date.strftime('%B %d, %Y')}. To: {end_date.strftime('%B %d, %Y')}"
 
 if st.button("Run Competitor Analysis"):
-    st.empty()
     expander = st.expander("Processing Log", expanded=True, icon="🖥️")
     with st.spinner("Running analysis..."):
         original_stdout = sys.stdout
@@ -33,40 +35,56 @@ if st.button("Run Competitor Analysis"):
         sys.stdout = stream_to_expander
         try:
             marketing_output_file, pricing_output_file = run_analysis(company_name, competitors_name, date_range)
-            if marketing_output_file:
+            if marketing_output_file and pricing_output_file:
                 logs = stream_to_expander.get_logs()
-                report_files.append(os.path.basename(marketing_output_file))
-                expander_expanded = False
-                st.success("Analysis complete! Check your Mailtrap inbox and the reports list.")
+                marketing_report_files.append(os.path.basename(marketing_output_file))
+                pricing_report_files.append(os.path.basename(pricing_output_file))# Still update the report list
+                expander.expanded = False  # Collapse the log expander after completion
+                st.success("Analysis complete! Check your Mailtrap inbox and see the results below.")
                 show_confetti()
-
+                selected_marketing_report = marketing_output_file
+                selected_pricing_report = pricing_output_file
+                # Save logs to temp file (optional, if you still want to persist logs)
                 with open("temp_logs.txt", "w", encoding="utf-8") as f:
                     f.write(logs)
-                st.rerun()
+            else:
+                st.warning("Analysis completed, but no output files were generated.")
         except Exception as e:
             st.error(f"Error during analysis: {e}")
         finally:
             sys.stdout = original_stdout
 
+# Display logs from temp file if it exists (optional)
 if os.path.exists("temp_logs.txt"):
     with open("temp_logs.txt", "r", encoding="utf-8") as f:
         logs_content = f.read()
     if logs_content:
         expander = st.expander("Processing Log", expanded=False)
         expander.markdown(logs_content, unsafe_allow_html=True)
-
     os.remove("temp_logs.txt")
 
-if selected_report:
-    with open(os.path.join(REPORT_DIR, selected_report), "r") as f:
+# Display selected report from sidebar (still functional)
+if selected_marketing_report:
+    print("selected_marketing_report", selected_marketing_report)
+    with open(selected_marketing_report, "r") as f:
         report_content = f.read()
-    st.markdown("### Selected Report")
     st.markdown(report_content, unsafe_allow_html=True)
 
-    pdf_path = os.path.join(REPORT_DIR, selected_report.replace(".md", ".pdf"))
+    pdf_path = selected_marketing_report.replace(".md", ".pdf")
     markdown_to_pdf(report_content, pdf_path)
-    st.markdown(get_pdf_download_link(pdf_path, selected_report.replace(".md", ".pdf")), unsafe_allow_html=True)
+    st.markdown(get_pdf_download_link(pdf_path, selected_marketing_report.replace(".md", ".pdf")), unsafe_allow_html=True)
+    st.divider()
+    
+if selected_pricing_report:
+    print("selected_pricing_report", selected_pricing_report)
+    with open(selected_pricing_report, "r") as f:
+        report_content = f.read()
+    st.markdown(report_content, unsafe_allow_html=True)
 
+    pdf_path = selected_pricing_report.replace(".md", ".pdf")
+    markdown_to_pdf(report_content, pdf_path)
+    st.markdown(get_pdf_download_link(pdf_path, selected_pricing_report.replace(".md", ".pdf")), unsafe_allow_html=True)
+    
 st.markdown(
     """
     <style>
@@ -84,16 +102,16 @@ st.markdown(
         border: 1px solid #4CAF50;
     }
     .stSidebar {
-        background-color: #f8f9fa;
+        # background-color: #f8f9fa;
     }
     .stProgress .st-bo {
-        background-color: #4CAF50;
+        # background-color: #4CAF50;
     }
     body {
         font-family: 'Arial', sans-serif;
     }
     h1, h2, h3 {
-        color: #2c3e50;
+        # color: #2c3e50;
     }
 
     /* Log container styling */
