@@ -13108,3 +13108,2451 @@ LiteLLM completion() model= gpt-4o; provider = openai
 2025-03-31 23:54:11,975 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
 2025-03-31 23:54:25,451 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
 2025-03-31 23:54:47,733 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-04-01 00:09:17,717 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-04-01 00:09:18,629 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-04-01 00:10:51,671 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:10:54,765 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:10:54,817 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:10:56,161 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:10:58,070 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:10:58,107 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:10:59,185 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:00,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:01,130 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:02,726 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:12,223 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:12,263 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:12,292 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:16,432 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:16,473 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:17,636 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:19,596 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:19,636 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:21,064 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:22,668 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:22,707 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:23,812 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:26,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:26,906 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:26,923 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:28,924 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:28,959 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:29,786 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:32,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:32,259 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:33,293 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:36,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:36,329 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:37,513 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:39,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:39,542 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:39,560 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:42,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:42,506 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:43,273 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:45,315 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:45,353 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:46,415 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:11:48,207 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:11:48,245 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:11:49,180 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:01,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:01,207 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:01,220 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:09,030 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:09,064 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:09,110 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:10,695 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:10,728 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:12,052 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:20,730 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:20,763 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:21,883 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:26,567 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:26,605 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:27,739 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:38,056 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:38,094 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:38,107 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:51,246 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:51,280 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:51,328 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:12:57,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:12:57,133 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:12:58,650 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:00,361 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:00,365 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:01,722 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:04,148 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:04,183 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:05,408 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:21,951 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:21,995 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:22,050 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:24,534 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:24,568 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:26,107 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:28,247 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:28,283 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:29,222 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:42,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:42,284 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:42,344 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:13:44,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:13:44,736 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:13:46,275 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:14:00,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:14:00,747 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:14:00,834 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-04-01 00:14:01,420 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-04-01 00:14:01,421 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,421 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,421 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,421 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,421 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,421 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,422 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,422 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,422 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,422 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,423 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,423 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,423 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,424 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,424 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,424 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,424 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,425 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,425 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,425 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,426 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,426 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,426 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,426 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,427 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,427 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,427 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,428 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,428 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,428 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,428 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,429 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,429 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,429 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,430 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,430 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,430 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,430 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,431 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,431 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,431 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,432 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,432 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,432 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,432 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,433 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,433 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,433 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,434 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,434 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,434 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,434 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,435 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,435 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,435 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,435 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,436 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,436 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,436 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,437 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,437 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,437 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,437 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,438 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,438 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,438 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,439 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,439 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,439 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,439 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,440 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,440 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,440 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,441 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,441 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,441 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,441 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,442 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,442 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,442 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,442 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,443 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,443 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,443 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,444 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,444 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,444 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,444 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,445 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,445 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,445 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,446 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,446 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,446 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,446 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,447 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,447 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,447 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,448 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,448 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,448 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,448 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,449 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,449 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,449 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,450 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,450 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,450 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,450 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,451 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,451 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,451 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,452 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,452 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,452 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,452 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,453 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,453 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,453 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,453 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,454 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,454 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,454 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,455 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,455 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,455 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,456 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,456 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,456 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,456 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,457 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,457 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,457 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,458 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,458 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,458 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,458 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,459 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,459 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,459 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,459 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,460 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,460 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,460 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,461 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,461 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,461 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,461 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,462 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,462 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,462 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,463 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,463 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,463 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,463 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,464 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,464 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,464 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,464 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,465 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,465 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,465 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,466 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,466 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,466 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,466 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,467 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,467 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,467 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,468 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,468 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,468 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,468 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,469 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,469 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,469 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,469 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,470 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,470 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,470 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,471 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,471 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,471 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,471 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,472 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,472 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,472 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,473 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,473 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,473 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,473 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,474 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,474 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,474 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,474 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,475 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,475 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,475 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,476 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,476 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,476 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,476 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,477 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,477 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,477 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,478 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,478 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,478 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,479 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,479 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,479 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,479 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,480 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,480 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,480 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,480 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,481 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,481 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,481 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,482 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,482 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,482 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,482 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,483 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,483 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,483 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,484 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,484 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,484 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,484 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,485 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,485 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,485 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,485 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,486 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,486 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,486 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,487 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,487 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,487 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,487 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,488 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,488 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,488 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,488 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,489 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,489 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,489 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,490 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,490 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,490 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,490 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,491 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,491 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,491 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,491 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,492 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,492 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,492 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,493 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,493 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,493 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,493 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,494 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,494 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,494 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,495 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,495 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,495 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,495 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,496 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,496 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,496 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,497 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,497 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,497 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,497 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,498 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,498 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,498 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,499 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,499 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,499 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,499 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,500 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,500 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,500 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,500 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:01,501 - WARNING - Invalid or unsupported selector, '<br />
+            h1.title '
+2025-04-01 00:14:01,501 - WARNING - Invalid or unsupported selector, '<br />
+            table '
+2025-04-01 00:14:01,501 - WARNING - Invalid or unsupported selector, '<br />
+            th, td '
+2025-04-01 00:14:01,501 - WARNING - Invalid or unsupported selector, '<br />
+            th '
+2025-04-01 00:14:01,501 - WARNING - Invalid or unsupported selector, '<br />
+            td:nth-child(1) '
+2025-04-01 00:14:01,501 - WARNING - Parse error at 6:95: EOF reached before {} block for a qualified rule.
+2025-04-01 00:14:03,775 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-04-01 00:16:13,687 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:17,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:17,905 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:19,305 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:25,473 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:25,522 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:26,918 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:31,708 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:31,743 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:33,466 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:50,663 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:50,701 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:50,725 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:52,302 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:52,339 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:53,774 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:55,693 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:55,729 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:57,011 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:16:58,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:16:58,366 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:16:59,706 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:01,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:01,562 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:01,577 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:04,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:04,228 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:05,627 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:07,661 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:07,663 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:09,146 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:15,902 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:15,942 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:16,894 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:18,721 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:18,760 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:18,775 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:21,738 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:21,776 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:23,091 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:26,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:26,293 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:27,554 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:29,575 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:29,609 - INFO - Wrapper: Completed Call, calling success_handler
+2025-04-01 00:17:30,916 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-04-01 00:17:32,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-01 00:17:32,341 - INFO - Wrapper: Completed Call, calling success_handler

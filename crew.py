@@ -106,7 +106,7 @@ def run_analysis(company_name, date):
     from_email = "sender@example.com"  
     to_email = "recipient@example.com"  
     
-    file_paths = [*marketing_snapshot_paths, final_pdf_path]
+    file_paths = [marketing_snapshot_paths, final_pdf_path]
     
     send_email_with_attachment(subject, body, from_email, to_email, read_md_file(output_md), file_paths)
     
