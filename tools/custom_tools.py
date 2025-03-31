@@ -9,9 +9,9 @@ import urllib.parse
 from dotenv import load_dotenv
 load_dotenv()
 
-@tool("Web searcher for ad campaigns")
+@tool("Web searcher for general information not relating to products or prices")
 def search_tool(query: str) -> str:
-    """Useful to search the internet about ad campaigns of big companies in sportwear."""
+    """Useful to search the internet about general information, ad campaigns, market research, SWOT analysis  of big companies in sportwear."""
     
     try:
         print(">>>>>>>>>>> argument", query)
@@ -50,7 +50,7 @@ def search_tool(query: str) -> str:
         return f"Search failed due to a network error: {str(e)}"
     
     
-@tool("Web searcher for footwear prices data")
+@tool("Web searcher for footwear prices and products data")
 def shopping_tool(query: str) -> str:
     """Useful to search the internet about price, discounts and ratings of large sportwear companies."""
     try:

@@ -1,5 +1,5 @@
 from crewai import Crew
-from agents import market_analysis_agent, price_analysis_agent
+from agents import market_analysis_agent, price_analysis_agent, general_analysis_agent
 from tasks import CATasks
 import uuid
 from config import REPORT_DIR
@@ -37,16 +37,26 @@ class CompetitorAnalysisCrew:
             self.date_range,
             self.id
         )
+        
+        general_information_task = tasks.general_information_task(
+            general_analysis_agent,
+            self.company_name,
+            self.competitors_name,
+            self.date_range,
+            self.id
+        )
 
         # Define your custom crew here
         crew = Crew(
             agents=[
-                market_analysis_agent,
-                price_analysis_agent
+                general_analysis_agent,
+                # market_analysis_agent,
+                # price_analysis_agent
             ],
             tasks=[
-                research_market_task,
-                analyze_price_task
+                general_information_task,
+                # research_market_task,
+                # analyze_price_task
             ],
             verbose=True,
         )
@@ -81,8 +91,8 @@ def run_analysis(company_name, competitors_name, date):
     
     send_email_with_attachment(subject, body, from_email, to_email, result, file_paths)
     
-    # empty_directory("snapshots")
-    # empty_directory("csv")
+    empty_directory("snapshots")
+    empty_directory("csv")
     
     return marketing_output_file, pricing_output_file
     

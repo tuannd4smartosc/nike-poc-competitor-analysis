@@ -6,6 +6,67 @@ class CATasks:
     def __tip_section(self):
         return "If you do your BEST WORK, I'll give you a $10,000 commission!"
 
+    def general_information_task(self, agent, company_name, competitors_name, date, id):
+        return Task(
+            description=dedent(
+                f"""
+                    **Task**: Develop a general research about the following companies: {competitors_name}
+                    **Description**: 
+                        {competitors_name} are big competitors of {company_name}.
+                        The task must start with an introduction about {competitors_name}.
+                        The task must include a list of bullet points comparing the company name, website url, founded, headquarters, market share, revenue, number of employees, and key products.
+                    **Parameters**: 
+                    - Companies: {competitors_name}
+
+                    **Note**: {self.__tip_section()}
+                """
+            ),
+            agent=agent,
+            output_file=generate_file_name(id, "background", "md"),
+            expected_output=f"""A markdown report starts with an introduction, and then detailed research findings the following companies, including the following categories {company_name}
+                1. Company Name.
+                2. Website url.
+                3. Foundded.
+                4. Headquarters.
+                5. Market Share.
+                6. Revenue.
+                7. Number of Employees.
+                8. Key Products.
+                
+                Do not include a conclusion.
+            """
+        )
+        
+    def swot_analysis_task(self, agent, company_name, competitors_name, date, id):
+        return Task(
+            description=dedent(
+                f"""
+                    **Task**: Develop a SWOT Analysis for the following companies: {competitors_name}
+                    **Description**: 
+                        {competitors_name} are big competitors of {company_name}.
+                        
+                    **Parameters**: 
+                    - Companies: {competitors_name}
+
+                    **Note**: {self.__tip_section()}
+                """
+            ),
+            agent=agent,
+            output_file=generate_file_name(id, "background", "md"),
+            expected_output=f"""A markdown report starts with an introduction, and then detailed research findings the following companies, including the following categories {company_name}
+                1. Company Name.
+                2. Website url.
+                3. Foundded.
+                4. Headquarters.
+                5. Market Share.
+                6. Revenue.
+                7. Number of Employees.
+                8. Key Products.
+                
+                Do not include a conclusion.
+            """
+        )
+
     def research_market_task(self, agent, company_name, competitors_name, date, id):
         return Task(
             description=dedent(
@@ -27,7 +88,7 @@ class CATasks:
             ),
             agent=agent,
             output_file=generate_file_name(id, "marketing", "md"),
-            expected_output="A markdown report with detailed analysis of ad campaigns and their impacts on each company."
+            expected_output=f"A markdown report with detailed analysis of ad campaigns, their impacts on each company, and next actions for {company_name}."
         )
         
     def analyze_price_task(self, agent, company_name, competitors_name, date, id):
@@ -51,5 +112,5 @@ class CATasks:
             ),
             agent=agent,
             output_file=generate_file_name(id, "pricing", "md"),
-            expected_output="A markdown report with detailed analysis of pricing strategies and their impacts on each company."
+            expected_output=f"A markdown report with detailed analysis of pricing strategies, impacts on each company and next actions for {company_name}."
         )

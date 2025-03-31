@@ -50,6 +50,7 @@ if st.button("Run Competitor Analysis"):
             else:
                 st.warning("Analysis completed, but no output files were generated.")
         except Exception as e:
+            print(e)
             st.error(f"Error during analysis: {e}")
         finally:
             sys.stdout = original_stdout
