@@ -21,6 +21,7 @@ EMAIL_SUBJECT = "Levi’s Promotion Campaign Insights - Weekly Report"
 SMTP_USER = "07e58258e03ad3"
 SMTP_PASSWORD = "28bb032eaf39f5"
 MODEL = "gpt-4o"
+# MODEL = "gpt-3.5-turbo"
 
 # wkhtmltopdf configuration for Windows - Comment this when running on Ubuntu
 # path_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'

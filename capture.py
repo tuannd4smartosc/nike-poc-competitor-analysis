@@ -9,7 +9,7 @@ def capture_campaign_snapshot(csv_files) -> list[str]:
     for csv in csv_files:
         csv_path = f"csv/{csv}"
         os.makedirs("snapshots", exist_ok=True)
-        target_link = f"snapshots/snap-{uuid.uuid4().hex}.pdf"
+        target_link = f"snapshots/appendix-{uuid.uuid4().hex}.pdf"
         csv_to_pdf(csv_path,  target_link)
         paths.append(target_link)
     return paths

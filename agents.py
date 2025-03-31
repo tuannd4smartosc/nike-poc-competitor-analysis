@@ -1,20 +1,29 @@
 from crewai import Agent
 from textwrap import dedent
-
-# from tools.search_tools import SearchTool
-# from tools.shopping_tools import ShoppingTool
-
 from tools.custom_tools import search_tool, shopping_tool
-
-MODEL = "gpt-3.5-turbo"
-# MODEL = "gpt-4o"
+from config import MODEL
 
 general_analysis_agent = Agent(
-    role="General Competitor Analysis Agent",
+    role="Competitor Analysis Report Writer",
     backstory=dedent(
-        f"""Expert in finding background information from big sportwear companies."""),
+        f"""Expert in writing executive summary, market research and specialised in sportwear industry."""),
     goal=dedent(f"""
-                Create a detailed background information report for five sportwear.
+                Write an executive summary and overview of the sportwear industry.
+                """),
+    tools=[
+        search_tool,
+    ],
+    verbose=True,
+    llm=MODEL,
+    max_iter=3
+)
+
+competitors_detection_agent = Agent(
+    role="Competitor Detection Agent",
+    backstory=dedent(
+        f"""Expert in finding basic information from big sportwear companies."""),
+    goal=dedent(f"""
+                Create a detailed basic information report for top three sportwear companies.
                 """),
     tools=[
         search_tool,
@@ -44,7 +53,7 @@ market_analysis_agent = Agent(
     backstory=dedent(
         f"""Expert in finding active promotion campaigns from big sportwear companies."""),
     goal=dedent(f"""
-                Create a detailed promotion campaigns for five sportwear companies with clear explanations on how the campaigns would impact on the companies.
+                Create a detailed promotion campaigns for three sportwear companies with clear explanations on how the campaigns would impact on the companies.
                 """),
     tools=[
         search_tool,
@@ -59,11 +68,26 @@ price_analysis_agent = Agent(
     backstory=dedent(
         f"""Expert in analysing pricing strategy from big sportwear companies regard price, discounts, and ratings."""),
     goal=dedent(f"""
-                Create a detailed pricing analysis for five sportwear companies with clear explanations on how the campaigns would impact on the companies.
+                Create a detailed pricing analysis for three sportwear companies with clear explanations on how the campaigns would impact on the companies.
                 """),
     tools=[
-        shopping_tool,
+        search_tool,
     ],
+    verbose=True,
+    llm=MODEL,
+    max_iter=3
+)
+
+recommendation_agent = Agent(
+    role="Business Consultant Expert",
+    tools=[
+        search_tool,
+    ],
+    backstory=dedent(
+        f"""Seasoned consultation expert with strong understanding about the sportwear market"""),
+    goal=dedent(f"""
+                Create a recommendation guide for a business to stand out from its competitors.
+                """),
     verbose=True,
     llm=MODEL,
     max_iter=3

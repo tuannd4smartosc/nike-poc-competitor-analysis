@@ -4,6 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import os
+from markdown import markdown
 
 def send_email_with_attachment(subject, body, from_email, to_email, markdown_result, file_paths):
     # Mailtrap SMTP credentials
@@ -17,6 +18,8 @@ def send_email_with_attachment(subject, body, from_email, to_email, markdown_res
     msg['From'] = from_email
     msg['To'] = to_email
     msg['Subject'] = subject
+    
+    email_content = markdown(markdown_result, extensions=['markdown.extensions.tables', 'markdown.extensions.extra', 'markdown.extensions.nl2br'])
     
     styled_html = f"""
         <!DOCTYPE html>
@@ -100,7 +103,7 @@ def send_email_with_attachment(subject, body, from_email, to_email, markdown_res
             <div class="email-container">
                 <img src="https://www.pngplay.com/wp-content/uploads/13/Levis-Transparent-File.png" alt="Levi's Logo" class="logo">
                 <h1>Nike's Competitors Analysis</h1>
-                <p>Please find the attached files for more details.</p>
+                {email_content}
                 <div class="confidentiality">
                     <p>CONFIDENTIAL: This email contains proprietary information intended solely for the recipients listed. Unauthorized distribution or disclosure is prohibited.</p>
                 </div>
