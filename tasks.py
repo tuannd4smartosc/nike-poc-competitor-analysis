@@ -44,7 +44,7 @@ class CATasks:
                     **Task**: Develop a SWOT Analysis for the following companies: {competitors_name}
                     **Description**: 
                         {competitors_name} are big competitors of {company_name}.
-                        
+                        The task must be a markdown report with detailed SWOT analysis for each company.
                     **Parameters**: 
                     - Companies: {competitors_name}
 
@@ -53,15 +53,11 @@ class CATasks:
             ),
             agent=agent,
             output_file=generate_file_name(id, "background", "md"),
-            expected_output=f"""A markdown report starts with an introduction, and then detailed research findings the following companies, including the following categories {company_name}
-                1. Company Name.
-                2. Website url.
-                3. Foundded.
-                4. Headquarters.
-                5. Market Share.
-                6. Revenue.
-                7. Number of Employees.
-                8. Key Products.
+            expected_output=f"""A markdown report starts with an introduction, and then a SWOT Analysis table for each company, including the following fields:
+                1. Strength
+                2. Weakness
+                3. Opportunity
+                4. Threat
                 
                 Do not include a conclusion.
             """
