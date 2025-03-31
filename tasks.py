@@ -59,11 +59,11 @@ class CATasks:
             """
         )
         
-    def swot_analysis_task(self, agent, company_name, date, id, context):
+    def swot_analysis_task(self, agent, company_name, date, id, context = []):
         return Task(
             description=dedent(
                 f"""
-                    **Task**: Develop a SWOT Analysis about the given competitors versus {company_name} in the given date range.
+                    **Task**: Develop a SWOT Analysis about the {company_name}'s competitors versus {company_name} in the given date range.
                     **Description**: 
                         The task must be a markdown report with detailed SWOT analysis for Nike versus the given competitors.
                         The task must highlight on key information that impacts on {company_name}'s performance.
@@ -84,11 +84,11 @@ class CATasks:
             """
         )
 
-    def research_market_task(self, agent, company_name, date, id, context):
+    def research_market_task(self, agent, company_name, date, id, context = []):
         return Task(
             description=dedent(
                 f"""
-                    **Task**: Develop a promotion campaign analysis for {company_name}'s given competitors in the given date range.
+                    **Task**: Develop a promotion campaign analysis for {company_name}'s competitors in the given date range.
                     **Description**: 
                         Search and analyze recent promotion campaigns from {company_name}'s competitors and their impacts to {company_name}.
                         The task must also summarize in detailed each ad campaign from each company, and the impact of each campaign on its competitors.
@@ -111,11 +111,11 @@ class CATasks:
             """
         )
         
-    def analyze_price_task(self, agent, company_name, date, id, context):
+    def analyze_price_task(self, agent, company_name, date, id, context = []):
         return Task(
             description=dedent(
                 f"""
-                    **Task**: Develop a product/pricing analysis for {company_name} and {company_name}'s given competitors in the given date range:
+                    **Task**: Develop a product/pricing analysis for {company_name} and {company_name}'s competitors in the given date range:
                     **Description**: 
                         - The task must analyze each competitor's product and pricing strategy and how they are dealing with the current market trend.
                         - The task must include a table that compares each company's key products, unique selling point, pricing, rating, and justification about the comparison.
@@ -143,7 +143,7 @@ class CATasks:
             """
         )
         
-    def consultation_task(self, agent, company_name, date, id, context):
+    def consultation_task(self, agent, company_name, date, id, context = []):
         return Task(
             description=dedent(
                 f"""

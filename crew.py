@@ -41,7 +41,6 @@ class CompetitorAnalysisCrew:
             self.company_name,
             self.date_range,
             self.id,
-            [general_information_task]
         )
 
         research_market_task = tasks.research_market_task(
@@ -49,7 +48,6 @@ class CompetitorAnalysisCrew:
             self.company_name,
             self.date_range,
             self.id,
-            [general_information_task]
         )
         
         analyze_price_task = tasks.analyze_price_task(
@@ -57,7 +55,6 @@ class CompetitorAnalysisCrew:
             self.company_name,
             self.date_range,
             self.id,
-            [general_information_task]
         )
         
         consultation_task = tasks.consultation_task(
@@ -65,7 +62,6 @@ class CompetitorAnalysisCrew:
             self.company_name,
             self.date_range,
             self.id,
-            [general_information_task]
         )
 
         # Define your custom crew here

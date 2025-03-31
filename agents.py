@@ -13,6 +13,7 @@ general_analysis_agent = Agent(
     tools=[
         search_tool,
     ],
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3
@@ -28,6 +29,7 @@ competitors_detection_agent = Agent(
     tools=[
         search_tool,
     ],
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3
@@ -43,6 +45,7 @@ swot_analysis_agent = Agent(
     tools=[
         search_tool,
     ],
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3
@@ -58,6 +61,7 @@ market_analysis_agent = Agent(
     tools=[
         search_tool,
     ],
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3
@@ -73,6 +77,7 @@ price_analysis_agent = Agent(
     tools=[
         search_tool,
     ],
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3
@@ -88,6 +93,7 @@ recommendation_agent = Agent(
     goal=dedent(f"""
                 Create a recommendation guide for a business to stand out from its competitors.
                 """),
+    allow_delegation=False,
     verbose=True,
     llm=MODEL,
     max_iter=3

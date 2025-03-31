@@ -4,6 +4,7 @@ from utils import StreamToExpander, show_confetti, markdown_to_pdf, get_pdf_down
 from datetime import datetime, timedelta
 from crew import run_analysis
 import os
+import traceback
 
 FINAL_PDF_PATH="final_reports"
 
@@ -50,8 +51,9 @@ if st.button("Run Competitor Analysis"):
             else:
                 st.warning("Analysis completed, but no output files were generated.")
         except Exception as e:
-            print(e)
-            st.error(f"Error during analysis: {e}")
+            error_details = traceback.format_exc()
+            # Display both the error message and stack trace
+            st.error(f"Error during analysis: {str(e)}\n\nDetails:\n{error_details}")
         finally:
             sys.stdout = original_stdout
 

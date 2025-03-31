@@ -12653,3 +12653,458 @@ LiteLLM completion() model= gpt-4o; provider = openai
 2025-03-31 23:29:44,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-03-31 23:29:44,254 - INFO - Wrapper: Completed Call, calling success_handler
 2025-03-31 23:29:44,358 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:33:43,235 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:33:44,226 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:35:54,378 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:35:55,638 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:35:58,275 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:35:58,325 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:35:59,768 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:01,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:01,482 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:02,613 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:04,547 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:04,549 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:16,053 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:36:16,957 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:36:19,164 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:21,547 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:21,564 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:22,710 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:24,249 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:24,289 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:25,841 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:27,700 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:27,737 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:28,922 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:36,336 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:36,372 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:36,399 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:39,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:39,212 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:40,196 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:41,829 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:41,831 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:42,861 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:44,514 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:44,552 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:45,680 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:47,912 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:47,946 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:47,968 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:50,909 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:50,946 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:52,111 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:54,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:54,552 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:55,085 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:56,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:56,281 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:57,301 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:36:58,531 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:36:58,565 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:36:58,572 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:37:00,772 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:37:00,806 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:37:01,904 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:37:03,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:37:03,793 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:37:04,526 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:37:06,340 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:37:06,372 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:37:07,848 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:37:09,967 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:37:10,003 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:37:10,080 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:39:12,140 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:39:13,237 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:39:14,575 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:16,570 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:16,616 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:17,888 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:19,311 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:19,345 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:20,458 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:28,525 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:28,527 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:28,547 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:29,861 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:29,864 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:48,410 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:39:49,029 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:39:49,696 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:39:52,029 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:54,970 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:55,021 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:56,087 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:39:57,384 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:39:57,422 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:39:58,575 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:07,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:07,136 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:07,161 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:08,502 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:08,538 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:09,586 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:10,896 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:10,931 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:12,456 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:13,797 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:13,838 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:15,042 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:22,736 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:22,777 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:22,811 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:24,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:24,375 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:25,074 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:26,689 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:26,747 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:27,927 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:35,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:35,101 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:35,140 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:37,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:37,073 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:38,232 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:40,354 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:40,392 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:41,137 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:57,150 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:57,184 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:40:57,229 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:40:59,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:40:59,280 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:00,509 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:02,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:02,665 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:03,786 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:06,318 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:06,356 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:07,270 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:16,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:16,403 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:16,452 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:17,855 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:17,896 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:18,732 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:20,292 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:20,329 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:21,843 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:23,624 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:23,658 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:24,547 - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-03-31 23:41:35,092 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:41:35,127 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:41:35,204 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:43:17,694 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:43:18,488 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:43:56,438 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:44:00,495 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:03,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:03,800 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:04,814 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:06,545 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:06,591 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:07,565 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:09,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:09,828 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:10,950 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:19,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:19,149 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:19,177 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:22,496 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:22,529 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:23,523 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:25,484 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:25,518 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:26,524 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:28,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:28,079 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:29,188 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:30,707 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:30,739 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:30,755 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:32,371 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:32,411 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:33,626 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:35,826 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:35,862 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:35,888 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:37,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:37,298 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:38,407 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:40,022 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:40,056 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:40,075 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:44,212 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:44,260 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:45,506 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:47,177 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:47,218 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:48,152 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:49,866 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:49,913 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:50,880 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:44:52,421 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:44:52,460 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:44:52,532 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:47:13,450 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:15,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:15,416 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:17,434 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:19,055 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:19,092 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:20,393 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:21,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:21,953 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:22,825 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:32,503 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:32,536 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:32,560 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:35,333 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:35,337 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:36,369 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:40,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:40,085 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:41,190 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:43,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:43,355 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:44,149 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:48,694 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:48,728 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:48,738 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:52,330 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:52,369 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:53,575 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:55,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:55,130 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:47:56,337 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:47:58,682 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:47:58,724 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:48:00,845 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:48:02,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:48:02,926 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:48:02,943 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:48:05,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:48:05,170 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:48:06,303 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:48:08,408 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:48:08,447 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:48:09,652 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:48:11,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:48:11,152 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:48:12,007 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:48:13,526 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:48:13,563 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:11,118 - INFO - HTTP Request: GET https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json "HTTP/1.1 200 OK"
+2025-03-31 23:51:11,981 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:51:13,256 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:15,420 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:15,464 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:16,663 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:18,439 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:18,484 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:19,357 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:21,256 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:21,304 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:22,084 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:28,995 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:29,033 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:29,061 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:31,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:31,954 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:33,064 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:34,860 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:34,899 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:35,845 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:37,640 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:37,679 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:38,794 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:51:46,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:51:46,789 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:51:46,796 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:01,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:01,749 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:01,783 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:04,265 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:04,298 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:05,444 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:07,052 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:07,087 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:08,060 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:10,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:10,241 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:11,011 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:12,146 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:12,148 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:12,168 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:15,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:15,132 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:16,269 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:18,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:18,325 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:18,964 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:41,232 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:41,254 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:41,299 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:43,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:43,723 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:44,947 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:46,249 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:46,288 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:47,388 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:52:48,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:52:48,642 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:52:49,962 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:00,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:00,517 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:00,566 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:04,167 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:04,205 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:05,350 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:09,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:09,491 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:10,581 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:12,260 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:12,298 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:13,303 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:15,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:15,363 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:15,392 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:20,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:20,081 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:21,409 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:24,957 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:24,994 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:26,048 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:28,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:28,417 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:29,563 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:45,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:45,680 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:45,742 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:52,811 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:52,845 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:54,384 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:56,802 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:56,838 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:53:58,226 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:53:59,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:53:59,808 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:54:00,897 - INFO - 
+LiteLLM completion() model= gpt-4o; provider = openai
+2025-03-31 23:54:01,310 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-03-31 23:54:01,312 - INFO - Retrying request to /chat/completions in 1.388000 seconds
+2025-03-31 23:54:11,861 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 23:54:11,896 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-31 23:54:11,975 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:54:25,451 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
+2025-03-31 23:54:47,733 - WARNING - Ignored `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)` at 3:102, unknown property.
