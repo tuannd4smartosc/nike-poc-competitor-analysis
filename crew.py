@@ -81,8 +81,8 @@ def run_analysis(company_name, competitors_name, date):
     
     send_email_with_attachment(subject, body, from_email, to_email, result, file_paths)
     
-    empty_directory("snapshots")
-    empty_directory("csv")
+    # empty_directory("snapshots")
+    # empty_directory("csv")
     
     return marketing_output_file, pricing_output_file
     

@@ -151,7 +151,7 @@ def sanitize_text(text: str,
     if len(result) == 0:
         return "None"
     
-    return urllib.parse.quote(result, safe=':/?&= !?.@*()')
+    return urllib.parse.quote(result, safe=':/?&= !?.@*()$')
 
 def csv_to_pdf(csv_file, pdf_file):
     df = pd.read_csv(csv_file)

@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load both CSV files
-df_adidas = pd.read_csv("csv/pricing_ef66338733fc4ecea49009daf3b202c0_competitor_analysis_20250330_193404.csv")  # Adidas dataset
-df_puma = pd.read_csv("csv/pricing_a6d28c4cd55f46edbd5825a2ad57b6f9_competitor_analysis_20250330_193404.csv")  # Puma dataset
+df_adidas = pd.read_csv("csv/pricing_a9334f2259ed4a03a7be5bf3360df4c1_competitor_analysis_20250331_145742.csv", on_bad_lines='warn')  # Adidas dataset
+df_puma = pd.read_csv("csv/pricing_e6f88a5089134cc496c86fa0b9610450_competitor_analysis_20250331_145742.csv", on_bad_lines='warn')  # Puma dataset
 
 # Convert 'price' to numeric (remove '$' sign if present)
 df_adidas["price"] = df_adidas["price"].replace('[\$,]', '', regex=True).astype(float)
