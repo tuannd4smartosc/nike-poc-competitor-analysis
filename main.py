@@ -16,12 +16,8 @@ if __name__ == "__main__":
         dedent("""
       What's your company name?
     """))
-    competitors_name = input(
-        dedent("""
-      Who are your competitors?
-    """))
     date_range = input(
         dedent("""
       What is the date range you are interested in analysing your competitors?
     """))
-    run_analysis(company_name, competitors_name, date_range)
+    run_analysis(company_name, date_range)

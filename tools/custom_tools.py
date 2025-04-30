@@ -9,12 +9,11 @@ import urllib.parse
 from dotenv import load_dotenv
 load_dotenv()
 
-@tool("Web searcher for ad campaigns")
+@tool("Web searcher for general information not relating to products or prices")
 def search_tool(query: str) -> str:
-    """Useful to search the internet about ad campaigns of big companies in sportwear."""
+    """Useful to search the internet about general information, ad campaigns, market research, SWOT analysis  of big companies in sportwear."""
     
     try:
-        print(">>>>>>>>>>> argument", query)
         # Implementation goes here
         top_result_to_return = 4
         url = "https://google.serper.dev/search"
@@ -50,11 +49,10 @@ def search_tool(query: str) -> str:
         return f"Search failed due to a network error: {str(e)}"
     
     
-@tool("Web searcher for footwear prices data")
+@tool("Web searcher for price analysis data")
 def shopping_tool(query: str) -> str:
     """Useful to search the internet about price, discounts and ratings of large sportwear companies."""
     try:
-        print(">>>>>>>>>>> query", query)
         # Implementation goes here
         url = "https://google.serper.dev/shopping"
         payload = json.dumps({"q": query})
@@ -86,7 +84,6 @@ def shopping_tool(query: str) -> str:
                     f"Source: {source}"
                 ]))
         generate_campaign_csv(search_results, "pricing")
-                    
         return '\n'.join(string)
     except requests.RequestException as e:
         return f"Search failed due to a network error: {str(e)}"

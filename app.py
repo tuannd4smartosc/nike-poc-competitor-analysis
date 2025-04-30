@@ -1,30 +1,33 @@
 import streamlit as st
 import sys
 from utils import StreamToExpander, show_confetti, markdown_to_pdf, get_pdf_download_link
-from config import REPORT_DIR
-from datetime import datetime
+from datetime import datetime, timedelta
 from crew import run_analysis
 import os
+import traceback
+
+FINAL_PDF_PATH="final_reports"
 
 st.set_page_config(page_title="Competitor Analysis Dashboard", layout="wide", initial_sidebar_state="expanded")
 
 st.sidebar.title("Reports")
-if not os.path.exists(REPORT_DIR):
-    os.makedirs(REPORT_DIR)
+if not os.path.exists(FINAL_PDF_PATH):
+    os.makedirs(FINAL_PDF_PATH)
 
-marketing_report_files = [os.path.join(REPORT_DIR, f) for f in os.listdir(REPORT_DIR) if f.endswith(".md") and f.startswith("marketing")]
-selected_marketing_report = st.sidebar.selectbox("Select a Marketing Report", marketing_report_files)
-
-pricing_report_files = [os.path.join(REPORT_DIR, f) for f in os.listdir(REPORT_DIR) if f.endswith(".md") and f.startswith("pricing")]
-selected_pricing_report = st.sidebar.selectbox("Select a Pricing Report", pricing_report_files)
+report_files = [os.path.join(FINAL_PDF_PATH, f) for f in os.listdir(FINAL_PDF_PATH) if f.endswith(".md")]
+selected_file = st.sidebar.selectbox("Select a Marketing Report", report_files)
 
 st.title("Competitor Analysis Dashboard")
 st.markdown("Analyze competitor pricing and promotions with a single click!")
 
-company_name = st.text_input("Enter your company's name:")
-competitors_name = st.text_input("Enter your company's competitors:")
-start_date = st.date_input("Pick a start date:")
-end_date = st.date_input("Pick an end date:")
+date_end = datetime.now().date()
+
+# Set date_start to roughly 1 year before date_end
+date_start = date_end - timedelta(days=365)
+
+company_name = st.text_input("Enter your company's name:", value = "Nike")
+start_date = st.date_input("Pick a start date:",date_start)
+end_date = st.date_input("Pick an end date:", date_end)
 date_range = f"From: {start_date.strftime('%B %d, %Y')}. To: {end_date.strftime('%B %d, %Y')}"
 
 if st.button("Run Competitor Analysis"):
@@ -34,23 +37,23 @@ if st.button("Run Competitor Analysis"):
         stream_to_expander = StreamToExpander(expander, st)
         sys.stdout = stream_to_expander
         try:
-            marketing_output_file, pricing_output_file = run_analysis(company_name, competitors_name, date_range)
-            if marketing_output_file and pricing_output_file:
+            output_md_file = run_analysis(company_name, date_range)
+            if output_md_file:
                 logs = stream_to_expander.get_logs()
-                marketing_report_files.append(os.path.basename(marketing_output_file))
-                pricing_report_files.append(os.path.basename(pricing_output_file))# Still update the report list
+                report_files.append(os.path.basename(output_md_file))
                 expander.expanded = False  # Collapse the log expander after completion
                 st.success("Analysis complete! Check your Mailtrap inbox and see the results below.")
                 show_confetti()
-                selected_marketing_report = marketing_output_file
-                selected_pricing_report = pricing_output_file
+                selected_file = output_md_file
                 # Save logs to temp file (optional, if you still want to persist logs)
                 with open("temp_logs.txt", "w", encoding="utf-8") as f:
                     f.write(logs)
             else:
                 st.warning("Analysis completed, but no output files were generated.")
         except Exception as e:
-            st.error(f"Error during analysis: {e}")
+            error_details = traceback.format_exc()
+            # Display both the error message and stack trace
+            st.error(f"Error during analysis: {str(e)}\n\nDetails:\n{error_details}")
         finally:
             sys.stdout = original_stdout
 
@@ -64,26 +67,15 @@ if os.path.exists("temp_logs.txt"):
     os.remove("temp_logs.txt")
 
 # Display selected report from sidebar (still functional)
-if selected_marketing_report:
-    print("selected_marketing_report", selected_marketing_report)
-    with open(selected_marketing_report, "r") as f:
+if selected_file:
+    with open(selected_file, "r") as f:
         report_content = f.read()
     st.markdown(report_content, unsafe_allow_html=True)
 
-    pdf_path = selected_marketing_report.replace(".md", ".pdf")
+    pdf_path = selected_file.replace(".md", ".pdf")
     markdown_to_pdf(report_content, pdf_path)
-    st.markdown(get_pdf_download_link(pdf_path, selected_marketing_report.replace(".md", ".pdf")), unsafe_allow_html=True)
+    st.markdown(get_pdf_download_link(pdf_path, selected_file.replace(".md", ".pdf")), unsafe_allow_html=True)
     st.divider()
-    
-if selected_pricing_report:
-    print("selected_pricing_report", selected_pricing_report)
-    with open(selected_pricing_report, "r") as f:
-        report_content = f.read()
-    st.markdown(report_content, unsafe_allow_html=True)
-
-    pdf_path = selected_pricing_report.replace(".md", ".pdf")
-    markdown_to_pdf(report_content, pdf_path)
-    st.markdown(get_pdf_download_link(pdf_path, selected_pricing_report.replace(".md", ".pdf")), unsafe_allow_html=True)
     
 st.markdown(
     """

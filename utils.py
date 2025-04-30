@@ -196,6 +196,46 @@ def csv_to_pdf(csv_file, pdf_file):
     HTML(string=html_content_with_title).write_pdf(pdf_file)
     print(f"PDF saved as: {pdf_file}")
     
+def get_csv_html_content(csv_file):
+    df = pd.read_csv(csv_file)
+
+    # Store all row tables
+    html_tables = []
+
+    # Loop through each row to generate individual tables
+    for _, row in df.iterrows():
+        df_transposed = row.to_frame().reset_index()  # Convert row to DataFrame
+        df_transposed.columns = ["Label", "Value"]  # Rename columns
+        
+        # Apply inline styling inside the Value column
+        df_transposed["Value"] = df_transposed["Value"].apply(
+            lambda x: f'<div style="min-width: 400px; max-width: 400px; word-wrap: break-word;">{x}</div>'
+        )
+
+        # Define CSS for clean layout
+        css = """
+        <style>
+            h1.title { font-weight: bold; font-size: 32px; margin-bottom: 24px; }
+            table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+            th, td { border: 1px solid black; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            td:nth-child(1) { width: 30%; font-weight: bold; } /* Label column */
+        </style>
+        """
+
+        # Append each row table as HTML
+        html_tables.append(f"{css}{df_transposed.to_html(index=False, escape=False)}")
+
+    # Combine all row tables into a single HTML document
+    title = ""
+    if "marketing" in csv_file:
+        title = "Marketing promotion campaign snapshots"
+    elif "pricing" in csv_file:
+        title = "Competitors' pricing analysis snapshots"
+    html_content = f"<br>".join(html_tables)
+    html_content_with_title = f"<h1 class='title'>{title}</h1>{html_content}"
+    return html_content_with_title
+    
 def empty_directory(directory_path: str) -> None:
     def remove_dir_contents(path: str) -> None:
         """Helper function to recursively delete director contents."""
